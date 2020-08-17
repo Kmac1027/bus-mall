@@ -5,7 +5,7 @@ var parentList = document.getElementById('list')
 var itemArray = [];
 var maxClick = 25;
 
-function item(filepath, alt, title) {
+function Item(filepath, alt, title) {
   this.filepath = filepath;
   this.alt = alt;
   this.title = title;
@@ -14,27 +14,27 @@ function item(filepath, alt, title) {
   itemArray.push(this);
 }
 
-new item('../IMG/bag.jpg', 'bag', 'bag');
-new item('../IMG/banana.jpg', 'banana', 'banana');
-new item('../IMG/bathroom.jpg', 'bathroom', 'bathroom');
-new item('../IMG/boots.jpg', 'boots', 'boots');
-new item('../IMG/breakfast.jpg', 'breakfast', 'breakfast');
-new item('../IMG/bubblegum.jpg', 'bubblegum', 'bubblegum');
-new item('../IMG/chair.jpg', 'chair', 'chair');
-new item('../IMG/cthulhu.jpg', 'cthulhu', 'cthulhu');
-new item('../IMG/dog-duck.jpg', 'dog duck', 'dog duck');
-new item('../IMG/dragon.jpg', 'dragon', 'dragon');
-new item('../IMG/pen.jpg', 'pen', 'pen');
-new item('../IMG/pet-sweep.jpg', 'pet sweep', 'pet sweep');
-new item('../IMG/scissors.jpg', 'scissors', 'scissors');
-new item('../IMG/shark.jpg', 'shark', 'shark');
-new item('../IMG/sweep.png', 'sweep', 'sweep');
-new item('../IMG/tauntaun.jpg', 'tauntaun', 'tauntaun');
-new item('../IMG/unicorn.jpg', 'unicorn', 'unicorn');
-new item('../IMG/usb.gif', 'usb', 'usb');
-new item('../IMG/unicorn.jpg', 'unicorn', 'unicorn');
-new item('../IMG/water-can.jpg', 'water-can', 'water-can');
-new item('../IMG/wine-glass.jpg', 'wine glass', 'wine glass')
+new Item('../IMG/bag.jpg', 'bag', 'bag');
+new Item('../IMG/banana.jpg', 'banana', 'banana');
+new Item('../IMG/bathroom.jpg', 'bathroom', 'bathroom');
+new Item('../IMG/boots.jpg', 'boots', 'boots');
+new Item('../IMG/breakfast.jpg', 'breakfast', 'breakfast');
+new Item('../IMG/bubblegum.jpg', 'bubblegum', 'bubblegum');
+new Item('../IMG/chair.jpg', 'chair', 'chair');
+new Item('../IMG/cthulhu.jpg', 'cthulhu', 'cthulhu');
+new Item('../IMG/dog-duck.jpg', 'dog duck', 'dog duck');
+new Item('../IMG/dragon.jpg', 'dragon', 'dragon');
+new Item('../IMG/pen.jpg', 'pen', 'pen');
+new Item('../IMG/pet-sweep.jpg', 'pet sweep', 'pet sweep');
+new Item('../IMG/scissors.jpg', 'scissors', 'scissors');
+new Item('../IMG/shark.jpg', 'shark', 'shark');
+new Item('../IMG/sweep.png', 'sweep', 'sweep');
+new Item('../IMG/tauntaun.jpg', 'tauntaun', 'tauntaun');
+new Item('../IMG/unicorn.jpg', 'unicorn', 'unicorn');
+new Item('../IMG/usb.gif', 'usb', 'usb');
+new Item('../IMG/unicorn.jpg', 'unicorn', 'unicorn');
+new Item('../IMG/water-can.jpg', 'water-can', 'water-can');
+new Item('../IMG/wine-glass.jpg', 'wine glass', 'wine glass')
 
 function random() {
   var randomImage = randomNumber(itemArray.length);
