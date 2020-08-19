@@ -97,9 +97,6 @@ function onClick(event) {
       li.textContent = itemArray[i].alt + ' had ' + itemArray[i].clickCount + ' vote(s) and was shown ' + itemArray[i].itemShown + ' time(s).'
       parentList.appendChild(li);
     }
-    var getItemArray = localStorage.getItem('item');
-    var parseItem = JSON.parse(getItemArray);
-    console.log(parseItem);
     chart();
   }
 }

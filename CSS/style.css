@@ -4,3 +4,26 @@ img {
   margin-right: auto;
   width: 20%;
 }
+body {
+  background-image: linear-gradient(rgba(86, 211, 107, 0.829), rgba(255, 255, 255, 0.836));
+
+  font-size: 20pxx;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 100px;
+  text-align: center;
+  font-family: fantasy;
+}
+h2 {
+  font-size: 25px;
+  text-decoration: underline;
+}
+ul {
+  background-color: #ca85cc;
+  width: fit-content;
+}
+#myChart {
+width: 300px;
+height: 200px;
+}
