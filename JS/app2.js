@@ -28,10 +28,10 @@ function checkLocalStorage() {
 checkLocalStorage();
 
 function createItems() {
-  var bag = new Item('../IMG/bag.jpg', 'bag', 'bag');
-  var banana = new Item('../IMG/banana.jpg', 'banana', 'banana');
-  var bathroom = new Item('../IMG/bathroom.jpg', 'bathroom', 'bathroom');
-  var boots = new Item('../IMG/boots.jpg', 'boots', 'boots');
+new Item('../IMG/bag.jpg', 'bag', 'bag');
+new Item('../IMG/banana.jpg', 'banana', 'banana');
+new Item('../IMG/bathroom.jpg', 'bathroom', 'bathroom');
+new Item('../IMG/boots.jpg', 'boots', 'boots');
   var breakfast = new Item('../IMG/breakfast.jpg', 'breakfast', 'breakfast');
   var bubblegum = new Item('../IMG/bubblegum.jpg', 'bubblegum', 'bubblegum');
   var chair = new Item('../IMG/chair.jpg', 'chair', 'chair');
@@ -106,14 +106,6 @@ parentElement.addEventListener('click', onClick);
 random();
 random();
 random();
-
-
-// function buildRadioButton(){
-// var radio = document.createElement('input');
-// radio.setAttribute('type', 'radio');
-// radio.setAttribute('value', chooseImage.alt);
-// parentElement.appendChild(radio);
-// }
 
 function chart() {
   var ctx = document.getElementById('myChart').getContext('2d');
